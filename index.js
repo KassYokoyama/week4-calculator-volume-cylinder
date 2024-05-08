@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // Send the HTML file for the cone height calculator
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/VolCalculator.html");
 });
 
 // Receive data and compute the height of the cone
